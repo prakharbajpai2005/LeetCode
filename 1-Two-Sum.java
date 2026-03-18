@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*Link ==> https://leetcode.com/problems/two-sum/description*/
 
 //1st approach
@@ -44,4 +45,52 @@ class Solution
         return new int[]{};
     }
 }*/
+=======
+/*Link ==> https://leetcode.com/problems/two-sum/description*/
+
+//1st approach
+
+class Solution 
+{
+    public int[] twoSum(int[] nums, int target) 
+    {
+        int[] ans = new int[2];
+        
+        for(int i = 0; i < nums.length-1; i ++)
+        {
+            for(int j = i + 1; j <nums.length; j ++)
+            {
+                if(nums[i] + nums[j] == target)
+                {
+                    ans[0] = i;
+                    ans[1] = j;
+                    break;
+                }
+
+            }
+        }
+        return ans;
+        
+    }
+}
+
+//2nd approach
+
+/*class Solution
+{
+    public int[] twoSum(int[] nums, int target) 
+    {
+        for (int i = 0; i < nums.length; i++) 
+        {
+            for (int j = i + 1; j < nums.length; j++) 
+            {
+
+                if (nums[i] + nums[j] == target) 
+                return new int[]{i, j};
+            }
+        }
+        return new int[]{};
+    }
+}*/
+>>>>>>> d5d821540dbaf11cda06dc2e24e7dcc844277b8d
   
