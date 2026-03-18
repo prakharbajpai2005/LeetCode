@@ -14,10 +14,9 @@ My LeetCode profile ==> https://leetcode.com/u/prakharbajpai2005/
 
 ## 📅 Progress Tracker
 
-| Date | Problem | Difficulty | Solution |
-|------|--------|------------|----------|
-| 18-03-2026 | Two Sum | Easy | [Code](./Arrays/TwoSum.java) |
-| 19-03-2026 | Trapping Rain Water | Hard | [Code](./Arrays/42-Trapping-Rain-Water.java) |
+| Date | Problem | Difficulty |
+|------|--------|------------|
+| 18-03-2026 | Two Sum | Easy |
 
 ## 📂 Topics Covered
 - Arrays
